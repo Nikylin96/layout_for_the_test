@@ -1,0 +1,65 @@
+.block {
+    margin: 0 auto;
+    width: 294px;
+    height: 294px;
+    background-color: darkgray;
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    overflow:hidden
+}
+.lowerPurple {
+    margin-bottom: 39px;
+    background-color: purple;
+    margin-left: 39px;
+    margin-right: 39px;
+    height: 60px;
+    border-radius: 25px;
+    z-index: 100;
+
+}
+.stick {
+    position: absolute;
+    top: 124px;
+    right: 13px;
+    background-color: blue;
+    width: 255px;
+    height: 30px;
+    transform: rotate(45deg);
+    z-index: 75;
+}
+.smallBall {
+    position: absolute;
+    top:102px;
+    left: 168px;
+    height: 75px;
+    width: 75px;
+    background: #25942d;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    z-index: 100;
+}
+
+.bigBall {
+    position: absolute;
+    top:-50px;
+    left: -50px;
+    height: 200px;
+    width: 200px;
+    background: green;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 100px;
+}
+
+.triangle {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 0;
+    height: 0;
+    border-bottom: 73px solid red;
+    border-left: 73px solid transparent;
+}
+
